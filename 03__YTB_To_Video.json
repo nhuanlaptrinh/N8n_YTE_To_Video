@@ -384,8 +384,7 @@
               "value": "100"
             },
             {
-              "name": "token",
-              "value": "apify_api_y1U08omJvUIg3y19345AhaCbc0PEp64bkXsX"
+              "name": "token"
             }
           ]
         },
@@ -398,7 +397,7 @@
             },
             {
               "name": "Authorization",
-              "value": "Bearer apify_api_y1U08omJvUIg3y19345AhaCbc0PEp64bkXsX"
+              "value": "Bearer "
             }
           ]
         },
@@ -419,13 +418,12 @@
     },
     {
       "parameters": {
-        "url": "=https://api.apify.com/v2/actor-runs/{{ $json.data.id }}?token=apify_api_4eTs27f4B9V16YDCsrKE4jkriaYl823ixoQk",
+        "url": "=https://api.apify.com/v2/actor-runs/{{ $json.data.id }}?token=",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
             {
-              "name": "token",
-              "value": "apify_api_y1U08omJvUIg3y19345AhaCbc0PEp64bkXsX"
+              "name": "token"
             }
           ]
         },
@@ -443,7 +441,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://api.apify.com/v2/acts/1s7eXiaukVuOr4Ueg/runs?token=apify_api_y1U08omJvUIg3y19345AhaCbc0PEp64bkXsX",
+        "url": "https://api.apify.com/v2/acts/1s7eXiaukVuOr4Ueg/runs?token=",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={\n  \"outputFormat\": \"singleStringText\",\n  \"urls\": [\n\"{{ $json[\"Link Video\"] }}\"\n  ],\n  \"maxRetries\": 8,\n  \"channelNameBoolean\": true,\n  \"channelIDBoolean\": true,\n  \"dateTextBoolean\": false,\n  \"relativeDateTextBoolean\": false,\n  \"datePublishedBoolean\": true,\n  \"viewCountBoolean\": false,\n  \"likesBoolean\": false,\n  \"commentsBoolean\": false,\n  \"keywordsBoolean\": false,\n  \"thumbnailBoolean\": false,\n  \"descriptionBoolean\": false,\n  \"proxyOptions\": {\n    \"useApifyProxy\": true,\n    \"apifyProxyGroups\": [\n      \"BUYPROXIES94952\"\n    ]\n  }\n} ",
@@ -717,7 +715,7 @@
           "parameters": [
             {
               "name": "Authorization",
-              "value": "Bearer cc634d0788dd4849ada57c6fab374f09bbdb449d157ed84e4f842a3171575452bcf9c9baf903d7aeb799a0c738215df1"
+              "value": "Bearer "
             }
           ]
         },
@@ -986,7 +984,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "d62e21c8-80c2-4a51-b6d1-17e7aff4499d",
+  "versionId": "dee15981-34fb-44a1-aee8-ae69023931a1",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "94a383c02457267bcc44878635a0fa02b7d3206c5479bfc8890faa812e2bbd97"
